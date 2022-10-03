@@ -16,7 +16,7 @@ function UsersSection() {
     <section>
       <h2>Users Section</h2>
       <div className="scroll-container">
-        <ul className="bg-blue">
+        <ul className="users-list">
           {users.map((user, index) => {
             return <UserListItem key={index} user={user} />;
           })}
